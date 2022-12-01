@@ -9,7 +9,9 @@ import {
   RUN_TITLES,
   MAIN_COLOR,
   RIDE_COLOR,
+  ROAD_RIDE_COLOR,
   VIRTUAL_RIDE_COLOR,
+  MOUNTAIN_RIDE_COLOR,
   HIKE_COLOR,
   SWIM_COLOR,
   ROWING_COLOR,
@@ -184,6 +186,12 @@ const titleForRun = (run) => {
       return RUN_TITLES.FLIGHT_TITLE;
     case 'Kayaking':
       return RUN_TITLES.KAYAKING_TITLE;
+    case 'VRide':
+      return RUN_TITLES.VIRTUAL_RIDE_TITLE;
+    case 'MRide':
+      return RUN_TITLES.MOUNTAIN_RIDE_TITLE;
+    case 'RRide':
+      return RUN_TITLES.ROAD_RIDE_TITLE;
     default:
       return RUN_TITLES.RUN_TITLE;
   }
@@ -196,8 +204,8 @@ const colorFromType = (workoutType) => {
     case 'Ride':
     case 'Indoor Ride':
       return RIDE_COLOR;
-    case 'VirtualRide':
-      return VIRTUAL_RIDE_COLOR;
+    case 'RRide':
+      return ROAD_RIDE_COLOR;
     case 'Hike':
       return HIKE_COLOR;
     case 'Rowing':
@@ -210,6 +218,10 @@ const colorFromType = (workoutType) => {
       return FLIGHT_COLOR;
     case 'Kayaking':
       return KAYAKING_COLOR;
+    case 'VRide':
+      return VIRTUAL_RIDE_COLOR;
+    case 'MRide':
+      return MOUNTAIN_RIDE_COLOR;
     default:
       return MAIN_COLOR;
   }
