@@ -13,7 +13,7 @@ const MUNICIPALITY_CITIES_ARR = [
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.4;
+const LINE_OPACITY = 0.5;
 // styling: map height
 const MAP_HEIGHT = 600;
 
@@ -21,7 +21,7 @@ const MAP_HEIGHT = 600;
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) =>
-  `户外运动 ${yearLength} 年 ` + ( year === 'Total' ? '' : `，地图展示的是 ${year} 年的轨迹`);
+  `百湖小于户外运动 ${yearLength} 年 ` + ( year === 'Total' ? '' : `，地图展示的是${year} 年运动轨迹热图`);
 
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
   `Logged ${yearLength} Years of Outdoor Journey` +  ( year === 'Total' ? '' : `, the map shows routes in ${year}`);
@@ -42,6 +42,9 @@ const INDOOR_RIDE_TITLE = IS_CHINESE ? '室内骑行' : 'Indoor Ride';
 const HIKE_TITLE = IS_CHINESE ? '徒步' : 'Hike';
 const ROWING_TITLE = IS_CHINESE ? '划船' : 'Rowing';
 const KAYAKING_TITLE = IS_CHINESE ? '皮划艇' : 'Kayaking';
+const ROAD_RIDE_TITLE = IS_CHINESE ? '公路骑行' : 'RRide';
+const VIRTUAL_RIDE_TITLE = IS_CHINESE ? '虚拟骑行' : 'VRide';
+const MOUNTAIN_RIDE_TITLE = IS_CHINESE ? '山地骑行' : 'MRide';
 const ROAD_TRIP_TITLE = IS_CHINESE ? '自驾' : 'RoadTrip';
 const FLIGHT_TITLE = IS_CHINESE ? '飞行' : 'Flight';
 
@@ -49,7 +52,9 @@ const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
   HALF_MARATHON_RUN_TITLE,
   RUN_TITLE,
-
+  ROAD_RIDE_TITLE,
+  VIRTUAL_RIDE_TITLE,
+  MOUNTAIN_RIDE_TITLE,
   RIDE_TITLE,
   INDOOR_RIDE_TITLE,
   HIKE_TITLE,
@@ -85,14 +90,19 @@ const gold = 'rgb(242,190,69)';
 const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
 const red = 'rgb(255,0,0)';//大红色
+const yellow1 = 'rgb(255,0,0)';//大黄色
+const blue = 'rgb(255,0,0)';//大蓝色
+const purple1= 'rgb(255,0,0)';//大紫色
 
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
-export const VIRTUAL_RIDE_COLOR = veryPeri;
+export const RUN_COLOR = grenn;
+export const RIDE_COLOR = blue;
+export const ROAD_RIDE_COLOR = yellow1;
+export const VIRTUAL_RIDE_COLOR = red;
+export const MOUNTAIN_RIDE_COLOR = purple1;
 export const HIKE_COLOR = pink;
 export const SWIM_COLOR = gold;
 export const ROWING_COLOR = cyan;
