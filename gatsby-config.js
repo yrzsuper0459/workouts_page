@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '/workouts_page', // Change to `/workouts_page` when running on GitHub pages
   siteMetadata: {
-    siteTitle: 'Workouts Map',
+    siteTitle: '百湖小于运动热图',
     siteUrl: 'https://ben29.xyz',
-    logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
+    logo: 'https://avatars.githubusercontent.com/u/118864822?s=400&u=8f06602dab5ee7547970f0a615102cf846245634&v=4',
     description: 'Personal Workouts Page',
     keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
     navLinks: [
