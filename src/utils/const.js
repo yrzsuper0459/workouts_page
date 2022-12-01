@@ -98,7 +98,7 @@ const purple1= 'rgb(255,0,0)';//大紫色
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-export const RUN_COLOR = grenn;
+export const RUN_COLOR = green;
 export const RIDE_COLOR = blue;
 export const ROAD_RIDE_COLOR = yellow1;
 export const VIRTUAL_RIDE_COLOR = red;
