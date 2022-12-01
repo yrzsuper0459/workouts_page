@@ -90,9 +90,9 @@ const gold = 'rgb(242,190,69)';
 const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
 const red = 'rgb(255,0,0)';//大红色
-const yellow1 = 'rgb(255,0,0)';//大黄色
-const blue = 'rgb(255,0,0)';//大蓝色
-const purple1= 'rgb(255,0,0)';//大紫色
+const yellow1 = 'rgb(255,255,0)';//大黄色
+const blue = 'rgb(0,255,255)';//大蓝色
+const purple1= 'rgb(171,130,255)';//大紫色
 
 // If your map has an offset please change this line
 // issues #92 and #198
