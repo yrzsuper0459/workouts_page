@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Garmin Connect" version="1.1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2019-03-20T07:46:04.000Z</time>
+  </metadata>
+  <trk>
+    <name>大庆市 Dynamic</name>
+    <type>other</type>
+    <trkseg>
+      <trkpt lat="46.6045297868549823760986328125" lon="125.11608987115323543548583984375">
+        <ele>179.600006103515625</ele>
+        <time>2019-03-20T07:46:04.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension/>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
