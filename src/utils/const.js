@@ -21,7 +21,7 @@ const MAP_HEIGHT = 600;
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) =>
-  `百湖小于户外运动 ${yearLength} 年 ` + ( year === 'Total' ? '' : `，地图展示的是${year} 年运动轨迹热图`);
+  `菜腿小于户外运动 ${yearLength} 年 ` + ( year === 'Total' ? '' : `，地图展示的是${year} 年运动轨迹热图`);
 
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
   `Logged ${yearLength} Years of Outdoor Journey` +  ( year === 'Total' ? '' : `, the map shows routes in ${year}`);
